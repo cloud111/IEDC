@@ -1,0 +1,24 @@
+#id1{
+	overflow-y : scroll;
+	overflow-x : hidden;
+	height : 600px;
+    width : 300px;
+	float:right;
+	margin-top:10px;
+	padding : 0px;
+}
+#id2{
+	
+	height : 500px;
+    width : 800px;
+	padding:5px;
+}
+#id3{
+	float:left;
+    width : 284px;
+	padding :12px;
+	margin-top : 2px;
+	border-style : solid;
+	border-color : black;
+}
+
