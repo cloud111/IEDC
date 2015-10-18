@@ -3,50 +3,134 @@
 <head>
   <title>IEDC</title>
 
-  <link rel="stylesheet" href="w3.css">
-  <link rel="stylesheet" href="bootstrap.min.css">
-  <script src="jquery.min.js"></script>
-  <script src="bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/sitecss.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=opensans">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
 
 </head>
 
 <body>
 
-<header class="w3-container teal">
-<center><img src="media/logo1.png" height="50%" width="50%" class="w3-image"  alt="Innovationclub" style=""></center>
-<center><h1>Innovation and Entrepreneurship Development Cell</h1></center>
-<ul class="nav nav-tabs" style='margin:50px 0 0 0;' >
-  <li class="active"><a href="#home" style='color:black;font-size:18px;padding:5px;'>Home</a></li>
-  <li><a href="#menu1" style='color:black;font-size:18px;padding:5px;margin-left:5px;'>Member Cells</a></li>
-  <li><a href="#menu2" style='color:black;font-size:18px;padding:5px;margin-left:5px;'>Achievements</a></li>
-  <li><a href="#menu3" style='color:black;font-size:18px;padding:5px;margin-left:5px;'>About us</a></li>
+<header class="w3-container teal" style='background:url("media/background.jpg")'>
+<div class='w3-row'>
+
+      <div class='w3-col m2 l2'>  <img  style='border-radius:3px;margin-top:5px;' src="media/logo1.png" height="125px" width="125px" class="w3-card-16"  alt="Innovationclub" style=""></div>
+      <center><div class='w3-col m8 l8'><h2 class='tlt' id="title" style='display:none;color:white;'>Innovation Incubation Entrepreneurship Development Centre</h2>
+        <h2 style='color:black;'>National Institute of Technology, Srinagar</h2></div><center>
+        <div class=' w3-col m2 l2'>  <img class='w3-card-16' style='border-radius:3px;margin-top:5px;float:right;' src="media/nitlogo.png" height="125px" width="125px" class="w3-image"  alt="Innovationclub" style=""></div>
+
+
+</div>
+
+<ul class="nav nav-tabs" style='margin:50px 0 0 0;font-size:20px;padding:0px' >
+  <li class="active"><a href="#home" style='color:black;padding:px;'>Home</a></li>
+  <li><a href="#menu1" style='color:black;padding:px;margin-left:5px;'>Member Cells</a></li>
+  <li><a href="#menu2" style='color:black;padding:px;margin-left:5px;'>Achievements</a></li>
+  <li><a href="#menu3" style='color:black;padding:px;margin-left:5px;'>About us</a></li>
 </ul>
 </header>
 
 
-<div class="container">
+<div class="container" style='margin-left:0px;width:100%;' >
 
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <div class="tab-content" style=''>
+        <div id="home" class="tab-pane fade in active w3-row" style='margin:10px 0 0 0;'>
+          <div class='w3-col m8 l8'>
+            <div class="panel panel-primary">
+            <div class="panel-heading"><h3>Welcome to IIEDC, NIT Srinagar</h3></div>
+            <div class="panel-body"><h4>Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+               the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+               type specimen book. It has survived not only five centuries, but also the leap into
+               electronic typesetting, remaining essentially unchanged. It was popularised in the
+               1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions
+               of Lorem Ipsum.</h4></div>
+          </div>
+       </div>
+
+
+       <div class='w3-col m4 l4'>
+       <header class='w3-container grey' style='border-radius:7px;margin:0 10px 0 10px;'>
+         <center><h3><b>Notifications</b></h3></center>
+       </header>
+        <ul class='w3-ul w3-border' style='margin:10px;border-radius:5px;font-size:20px;padding:10px;overflow:scroll;height:200px;overflow-x:hidden;'>
+           <li><a href="" data-toggle='modal' data-target='#myModal'>NEX-GEN ADOBE-The future House</a></li>
+           <li><a href="" data-toggle='modal' data-target='#myModal'>NEX-GEN ADOBE-The future House</a></li>
+        </ul>
+
+       </div>
     </div>
+
+
+
     <div id="menu1" class="tab-pane fade">
-      <h3>Menu 1</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h3><b>MEMBER CELLS</b></h3>
+
+      <div class='w3-row' style='margin:0 0 30px 0'>
+        <div class='w3-container w3-quarter  w3-border'>
+           <img src='media/grids.png' class="w3-image w3-card-8 w3-border "  width="100%">
+        </div>
+        <div class='w3-container w3-quarter w3-border'  width="50%">
+           <img src="media/edpcell.png" class="w3-image w3-card-8 w3-border " width="100%">
+        </div>
+        <div class='w3-container w3-quarter w3-border'>
+           <img src="media/innovationclub.png" class="w3-image w3-card-8 w3-border" height='220px' width="100%">
+        </div>
+      </div>
+
     </div>
+
+
     <div id="menu2" class="tab-pane fade">
-      <h3>Menu 2</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      <h3><b>Achievements</b></h3>
     </div>
+
+
     <div id="menu3" class="tab-pane fade">
-      <h3>Menu 3</h3>
-      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <h3><b>About us</b></h3>
     </div>
 
+</div>
+</div>
 
+
+<!--*****************************************my modal************************************************/-->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">NEX-GEN ABODE-The Future House</h4>
+        </div>
+        <div class="modal-body">
+          <img class='w3-image' src='media/poster.png' alt='poster.jpg' width="100%">
+          <a style='font-size:25px;margin:15px 0 0 0;' href='docs/nex_gen_abode_the_future_house_event.pdf' class='btn btn-info'>View Complete Notice</a>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<!--*****************************************my modal ends here**************************************/-->
+
+<footer class='w3-container teal'>
+ <h4>Innovation Incubation Entrepreneurship Development Centre, NIT Srinagar</h4>
+ <p><b>&copy 2015-2016. All rights reserved</b></p>
+</footer>
 <script>
 $(document).ready(function(){
+   $("#title").fadeIn("slow");
+   $("#title").animate({left:'250px'});
     $(".nav-tabs a").click(function(){
         $(this).tab('show');
     });
@@ -57,6 +141,8 @@ $(document).ready(function(){
         $(".prev span").text(y);
     });
 });
+
+
 </script>
 
 </body>

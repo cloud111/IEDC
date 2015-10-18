@@ -1,0 +1,22 @@
+body .panel,.nav {
+        font-family: 'opensans', serif;
+        font-size: 48px;
+      }
+.tlt : hover{
+  text-shadow:5px;
+}
+#notifications : hover{
+  speed:3000000;
+}
+a{
+  color:darkblue;
+}
+a:hover{
+  text-decoration: none;
+  color:green;
+}
+
+body .w3-quarter{
+  padding:10px;
+  margin:10px;
+}
